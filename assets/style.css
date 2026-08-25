@@ -1,10 +1,17 @@
+:root {
+    --header-color: oklch(0.7618 0.0617 123.88);
+
+    --background-color: oklch(0.1261 0.0291 261.19);
+    --footer-color: oklch(0.7618 0.1184 335.65);
+}
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-    color: #ddd;
-    font-family: "Verdana", sans-serif;
+    color: var(--header-color);
+    font-family: "Annie Use Your Telescope", cursive;
 }
 
 b,
@@ -18,12 +25,14 @@ a {
 
 html {
     color: #ccc;
-    font-family: "Georgia", serif;
+    font-family:
+        "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+        Arial, sans-serif;
     font-size: 1.2em;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #111;
+    background-color: var(--background-color);
 }
 
 body {
@@ -46,6 +55,9 @@ nav {
     justify-content: left;
     font-size: 1.2em;
     margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--header-color);
+    font-family: "Bubblegum Sans", sans-serif;
 }
 
 pre {
@@ -99,6 +111,7 @@ footer hr {
     display: flex;
     flex-direction: row;
     width: 100%;
+    color: var(--footer-color);
 }
 
 .footer-buttons {

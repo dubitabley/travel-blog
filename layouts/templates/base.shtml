@@ -8,17 +8,20 @@
 		<link type="image/svg+xml" rel="icon" href="$site.asset('favicon.svg').link()">
 		<link rel="alternate" type="application/rss+xml"
 		    href="$site.page('blog').alternative('rss').link()" title="dubitable's travel RSS Feed">
+		<style>
+            @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Bubblegum+Sans&display=swap");
+		</style>
 		<super>
 	</head>
 	<body id="body">
 		<h1 class="site-title" :text="$site.title"></h1>
 		<nav>
 			<a href="$site.page('').link()">Home</a>
-			&nbsp; <strong>||</strong> &nbsp;
+			&nbsp; || &nbsp;
 			<a href="$site.page('about').link()">About</a>
-			&nbsp; <strong>||</strong> &nbsp;
+			&nbsp; || &nbsp;
 			<a href="$site.page('blog').link()">Blog</a>
-			&nbsp; <strong>||</strong> &nbsp;
+			&nbsp; || &nbsp;
 			<a href="https://dubitable.xyz">Main site</a>
 		</nav>
 		<super>
