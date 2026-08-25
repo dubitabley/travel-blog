@@ -8,13 +8,30 @@
 		<link type="image/svg+xml" rel="icon" href="$site.asset('favicon.svg').link()">
 		<link rel="alternate" type="application/rss+xml"
 		    href="$site.page('blog').alternative('rss').link()" title="dubitable's travel RSS Feed">
+		<script type="module" src="$site.asset('theming.js').link()"></script>
 		<style>
             @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Bubblegum+Sans&display=swap");
 		</style>
 		<super>
 	</head>
 	<body id="body">
-		<h1 class="site-title" :text="$site.title"></h1>
+    	<header>
+    		<h1 class="site-title" :text="$site.title"></h1>
+            <theme-picker>
+                <label>
+                    <img src="$site.asset('theme-system.svg').link()" alt="System theme" title="Click to set system theme">
+                    <input type="radio" name="theme" value="system" id="theme-system" checked>
+                </label>
+                <label>
+                    <img src="$site.asset('theme-light.svg').link()" alt="Light theme" title="Click to set light theme">
+                    <input type="radio" name="theme" value="light" id="theme-light">
+                </label>
+                <label>
+                    <img src="$site.asset('theme-dark.svg').link()" alt="Dark theme" title="Click to set dark theme">
+                    <input type="radio" name="theme" value="dark" id="theme-dark">
+                </label>
+            </theme-picker>
+    	</header>
 		<nav>
 			<a href="$site.page('').link()">Home</a>
 			&nbsp; || &nbsp;

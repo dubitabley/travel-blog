@@ -4,5 +4,9 @@
 .layout = "index.shtml",
 ---
 
-My travel website, designed to be easier to write since it's using
-markdown instead of Svelte components.
+My travel website, designed to be easier to write since it's built using
+markdown instead of Svelte components. I also tried to style it in a
+friendlier way. Hope you appreciate it!
+
+Check out my [main site](https://dubitable.xyz) for lots of other stuff such as posting about
+maths, books, words, even poetry on occasion.

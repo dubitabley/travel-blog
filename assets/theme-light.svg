@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="500mm" height="500mm" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient6" x1="-152.88" x2="346.57" y1="87.766" y2="87.766" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fcad70" offset="0"/>
+   <stop stop-color="#fafc70" stop-opacity=".88758" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g stroke="#f9a916">
+  <ellipse cx="245.24" cy="241.65" rx="156.5" ry="150.86" fill="none" stroke-width="32.053"/>
+  <path transform="matrix(.89294 0 0 .92515 152.4 175.13)" d="m330.86 171c-7.8997 18.07-147.16-2.3638-164.17 7.6122-17.013 9.976-67.173 141.48-86.801 139.56-19.627-1.929-43.226-140.69-57.971-153.78-14.745-13.097-155.32-20.164-159.55-39.427-4.2306-19.263 120.44-84.585 128.34-102.66 7.8997-18.07-28.818-153.95-11.806-163.92 17.013-9.976 117.66 88.41 137.29 90.339 19.627 1.9289 137.51-74.98 152.25-61.883 14.745 13.097-47.723 139.23-43.492 158.49s113.8 107.61 105.9 125.68z" fill="url(#linearGradient6)" stroke-width="30"/>
+ </g>
+</svg>
