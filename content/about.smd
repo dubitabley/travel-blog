@@ -8,8 +8,10 @@
 This site is meant to be a simple site that's easy to update on
 mobile so I can just add markdown files to the repo and it will
 handle everything to do with updating the RSS feed and publishing etc.
-Check out the repo at TODO - repo here
+Check out the repo on [Github here](https://github.com/dubitabley/travel-blog)
 
 # Colophon
 
-This website is built using [Zine](https://zine-ssg.io/) which is a neat static site generator created with Zig
+This website is built using [Zine](https://zine-ssg.io/) which is a
+neat static site generator created with Zig. I think it's probably
+more powerful than I need but it's better to be more flexible than less.

@@ -13,19 +13,28 @@
 		<h1 class="site-title" :text="$site.title"></h1>
 		<nav>
 			<a href="$site.page('').link()">Home</a>
-			&nbsp; • &nbsp;
+			&nbsp; <strong>||</strong> &nbsp;
 			<a href="$site.page('about').link()">About</a>
-			&nbsp; • &nbsp;
+			&nbsp; <strong>||</strong> &nbsp;
 			<a href="$site.page('blog').link()">Blog</a>
-			&nbsp; • &nbsp;
+			&nbsp; <strong>||</strong> &nbsp;
 			<a href="https://dubitable.xyz">Main site</a>
 		</nav>
 		<super>
 		<footer>
-			<hr>
-			<h5>SITE UNDER CONSTRUCTION</h5>
-			<img src="$site.asset('under-construction.gif').link()" width=90>
-			<!--<p>Built using <span :text="$site.zine_version"></span></p>-->
+		    <hr>
+			<div class="footer-bottom">
+    			<span>
+    			    Made by <a href="https://dubitable.xyz">dubitable</a>
+    			</span>
+    			<div class="footer-buttons">
+                    <a href="$site.page('blog').alternative('rss').link()">
+                        <img width="30" height="30"
+                            src="$site.asset('rss.svg').link()"
+                            alt="RSS Feed Icon" title="RSS Feed">
+                    </a>
+                </div>
+			</div>
 		</footer>
 	</body>
 </html>
