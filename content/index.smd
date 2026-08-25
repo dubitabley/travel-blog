@@ -1,6 +1,6 @@
 ---
-.title = "Homepage",
-.date = .date("1990-01-01T00:00:00"),
+.title = "Home",
+.date = .date("2026-08-25T00:00:00"),
 .layout = "index.shtml",
 ---
 
@@ -100,4 +100,3 @@ Lastly, this sample website also includes the following asset files:
 The first few asset files are **site assets**, while the last is a **page asset** that belongs to the "first post" page.
 
 The Zine docs contain more information about [dealing with assets](https://zine-ssg.io/docs/assets/).
-
