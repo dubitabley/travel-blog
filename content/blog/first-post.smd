@@ -1,0 +1,31 @@
+---
+.title = "First Mobile Post",
+.date = .date("2026-08-26T00:00:00"),
+.layout = "post.shtml"
+---
+
+# Mobile blogging
+
+I am currently writing this on my phone keyboard, 
+on the mobile version of [vscode](https://vscode.dev) 
+and updating the markdown manually. To be clear this is
+very inconvenient but I don't need this to be easy, just manageable.
+
+It would be easier if I had a better editor, perhaps I should try editing it 
+separately and copy pasting the text in. Will try looking for an app that improves this
+since vscode isn't designed for writing on mobile... No matter what writing text on mobile 
+will never be a pleasant experience though. My plan is to write on pen and paper first then 
+only transcribe once I'm happy with it.
+
+It's also inconvenient to have to check the GitHub actions for the 
+repository to make sure it's built correctly, theoretically I could use 
+GitHub codespaces to run things online but that seems like even more of a pain.
+
+I suppose the simplest system would be to use an existing platform
+with a mobile app designed for it but I wanted one that was free and could 
+use my custom domain which I couldn't find a good option for. I do get that 
+it costs money to run these things and using Microsoft services is costly in 
+other ways but I think this is just the most practical solution for now.
+
+Whatever happens, I'll try to keep posting; mainly for myself to dump my thoughts out 
+so they're not totally stuck swirling around in my head.
