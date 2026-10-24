@@ -1,6 +1,6 @@
 ---
-.title = "",
-.date = .date("1990-01-01T00:00:00"),
+.title = "Te Araroa Day 30",
+.date = .date("2026-10-22T00:00:00"),
 .layout = "post.shtml"
 ---
 # Day 30
