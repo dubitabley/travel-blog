@@ -131,7 +131,7 @@ pre {
     overflow-x: scroll;
 }
 
-img {
+img, video {
     max-width: 100%;
 }
 
